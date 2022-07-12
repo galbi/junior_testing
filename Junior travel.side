@@ -1,0 +1,301 @@
+{
+  "id": "156e2047-ea8f-44eb-9302-80a0deaa1c9e",
+  "version": "2.0",
+  "name": "Junior",
+  "url": "https://www.selenium.dev",
+  "tests": [{
+    "id": "36aaacd6-4251-47a3-a93c-d8a2da48adaf",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "a5669486-a17d-4454-928a-1ae2ef540d86",
+    "name": "Selenium overview",
+    "commands": [{
+      "id": "1154287f-00b8-4c86-b0e3-2e856d97bfb8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b97ebac-1ce7-4a36-ba01-27bd0d1c1220",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1037x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe4eae40-2636-4829-9bef-2dfc4598572f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) span",
+      "targets": [
+        ["css=.nav-item:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='main_navbar']/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Documentation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3de8cfa8-c94e-41c2-b4ed-8388f5c4fde1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#m-documentationoverview > span",
+      "targets": [
+        ["css=#m-documentationoverview > span", "css:finder"],
+        ["xpath=//a[@id='m-documentationoverview']/span", "xpath:idRelative"],
+        ["xpath=//li/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb122325-b3ea-4121-8e94-b916cdf93cce",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Selenium overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0db3141-9dc1-4e8b-9107-90824f2c9010",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Selenium overview')]", "xpath:innerText"]
+      ],
+      "value": "Selenium overview"
+    }, {
+      "id": "5234a84b-e4ae-4e56-99e0-f73cd4bd8af5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Selenium components",
+      "targets": [
+        ["linkText=Selenium components", "linkText"],
+        ["css=.entry:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Selenium components')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/documentation/overview/components/')])[2]", "xpath:href"],
+        ["xpath=//h5/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Selenium components')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "63c77ab2-c256-45a0-9b12-39579b7520f8",
+    "name": "Selenium overview_2",
+    "commands": [{
+      "id": "794211f1-369e-44aa-9b0b-97f223a2add5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1335d4e-3d57-4e07-af1b-d3e98a49be62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1037x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e0cf630-0cc1-4467-9ec8-0fcc34056190",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) span",
+      "targets": [
+        ["css=.nav-item:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='main_navbar']/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Documentation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ed28b30-af17-40c9-bee6-66fb3692c4ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=#m-documentationoverview > span",
+      "targets": [
+        ["css=#m-documentationoverview > span", "css:finder"],
+        ["xpath=//a[@id='m-documentationoverview']/span", "xpath:idRelative"],
+        ["xpath=//li/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ce38b4a-b573-41b8-a6ae-da4b331cbc0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Selenium overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9afd9eb-fafe-4211-a120-22ea44e14bdc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Selenium overview')]", "xpath:innerText"]
+      ],
+      "value": "Selenium overview"
+    }, {
+      "id": "6fa21a6a-caf2-4ce6-91c8-c8832447e12b",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Selenium overview | Selenium",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6eaef5f-a0ce-427f-a6a0-b6eb39b5095e",
+      "comment": "",
+      "command": "waitForText",
+      "target": "id=webdriver",
+      "targets": [
+        ["id=webdriver", "id"],
+        ["css=#webdriver", "css:finder"],
+        ["xpath=//h2[@id='webdriver']", "xpath:attributes"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'WebDriver ')]", "xpath:innerText"]
+      ],
+      "value": "WebDriver"
+    }]
+  }, {
+    "id": "77c37206-2c1e-44db-8090-8dc8eecd6f82",
+    "name": "TC1",
+    "commands": [{
+      "id": "2d517ec6-df0f-46ad-8c7d-7b58daba7cf5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5886d01a-a980-49d1-aa74-c62c44fa8743",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3856a948-27aa-4791-ac51-5d59ae5a7d8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarDropdown",
+      "targets": [
+        ["id=navbarDropdown", "id"],
+        ["linkText=About", "linkText"],
+        ["css=.nav-item:nth-child(2) > #navbarDropdown", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//a[@id='navbarDropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='main_navbar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed5761bc-93ea-42bb-978b-bba9930ba19f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Selenium",
+      "targets": [
+        ["linkText=About Selenium", "linkText"],
+        ["css=.show > .dropdown-item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'About Selenium')]", "xpath:link"],
+        ["xpath=//div[@id='main_navbar']/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Selenium')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a143719-8c09-4060-89a9-dce624601aa2",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h2[contains(.,'History of Selenium')]",
+      "targets": [],
+      "value": "History of Selenium2"
+    }, {
+      "id": "46f71b57-cc07-4a4e-a369-6d3e3584173a",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h2[contains(.,'Selenium Ecosystem')]",
+      "targets": [
+        ["css=.-bg-selenium-green-45 .card-title", "css:finder"],
+        ["xpath=//div[2]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Selenium Ecosystem')]", "xpath:innerText"]
+      ],
+      "value": "Selenium Ecosystem"
+    }, {
+      "id": "11276af7-3edb-4a55-a90c-ff6e5210f87b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h2[contains(.,'Get involved')]",
+      "targets": [
+        ["css=.col-lg-6:nth-child(2) .card-title", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Get involved')]", "xpath:innerText"]
+      ],
+      "value": "Get involved"
+    }, {
+      "id": "9e2938af-deba-41ec-9931-0580e7737a16",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h2[contains(.,'Support Selenium')]",
+      "targets": [],
+      "value": "Support Selenium"
+    }, {
+      "id": "0531b1b3-75b6-4fc1-90b5-50592e6feac8",
+      "comment": "",
+      "command": "run",
+      "target": "TC2",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cf93f358-6b6d-46d6-937a-e96c16a82ff9",
+    "name": "TC2",
+    "commands": [{
+      "id": "c6a07022-271a-485b-b53e-d38d0a894c43",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h2[contains(.,'Support Selenium')]",
+      "targets": [],
+      "value": "Support Selenium"
+    }]
+  }],
+  "suites": [{
+    "id": "241d3d38-0e2f-4b84-b6b6-f4834eaaa169",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "a2225812-be57-443b-ad04-b22dc984959b",
+    "name": "Selenium Overview",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a5669486-a17d-4454-928a-1ae2ef540d86", "63c77ab2-c256-45a0-9b12-39579b7520f8"]
+  }, {
+    "id": "ae6284b9-f006-40e7-a3e5-81a134dadc5b",
+    "name": "SUIT2",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["77c37206-2c1e-44db-8090-8dc8eecd6f82", "cf93f358-6b6d-46d6-937a-e96c16a82ff9"]
+  }],
+  "urls": ["https://www.selenium.dev/"],
+  "plugins": []
+}
